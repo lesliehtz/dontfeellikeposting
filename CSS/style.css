@@ -214,3 +214,12 @@ u {
         padding: 1.5rem;
     }
 }
+
+@media (max-width: 750px) {
+    body {
+        font-size: 1rem;
+    }
+    .site-header {
+        --header-title-size: 1.8rem;
+    }
+}
